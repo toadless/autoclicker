@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.github.johnrengelman.shadow' version '5.2.0'
+}
+
+mainClassName = 'net.toadless.autoclicker.Main'
+
+group 'net.toadless'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.github.kwhat:jnativehook:2.2.2'
+    implementation 'ch.qos.logback:logback-classic:1.2.11'
+
+    implementation 'org.jetbrains:annotations:20.1.0'
+}
+
+sourceCompatibility = targetCompatibility = JavaVersion.VERSION_18
+
+compileJava.options.encoding = 'UTF-8'
