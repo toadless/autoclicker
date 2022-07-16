@@ -1,6 +1,6 @@
 # AutoClicker
-This project is a fairly simple to use AutoClicker with a nice gui. This was built
-with the intentions to prevent afk kicking in a game. Please dont use this as an unfair
+This project is a fairly simple to use AutoClicker with a nice GUI. This was built
+with the intentions to prevent afk kicking in a game. Please don't use this as an unfair
 advantage.
 
 ## License
